@@ -1,0 +1,30 @@
+.table{
+    /* margin:auto; */
+    position:absolute;
+    top:50px;
+    display:flex;
+    width:100%;
+    color:rgb(224, 3, 3);
+    /* padding:10px; */
+    justify-content: center;
+}
+
+.table thead th{
+    padding:25px;
+    font-size: large;
+}
+.table tbody td{
+    /* padding-top:15px; */
+}
+@media only screen and (max-width:632px){   
+    .down{
+        position: relative;
+        top:100%;
+        width: 100%;
+    }
+}
+.down{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}

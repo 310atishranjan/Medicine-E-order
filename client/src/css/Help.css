@@ -1,0 +1,9 @@
+.help{
+    position:fixed;
+    top:350px;
+    left:90%;
+}
+.help img{
+    width:80px;
+    height:80px;
+}

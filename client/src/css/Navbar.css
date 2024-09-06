@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding:0px;
+  }
+  /* #91c5ef; */
+.containerNav{
+    /* background-color:rgb(240, 158, 128); */
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    z-index: 1;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    box-shadow: 0px 0px 10px 10px #fff;
+}
+ul{
+    display:flex;
+    list-style: none;
+    color:#fff
+}
+ul li{
+    padding:0px 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.Rl{
+    margin:12px 22px;
+    font-size: 20px;
+    font-weight: bold;  
+}
+.register{
+    padding:22px;
+}
+.cart-logout{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+.mycart{
+    margin-right: 10px;
+}
+.mycart button{
+    padding:10px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: rgb(223, 151, 9);
+    color:white;
+    font-weight:bold;
+    cursor: pointer;
+}
+.btnlog{
+    border-radius:5px ;
+    background-color: rgb(92, 92, 228);
+    color:white;
+}
+.btnlog:hover{
+    transform:scale(1.05);
+}
+.mycart:hover{
+    transform:scale(1.05);
+}
+.burger{
+    position:absolute;
+    margin-top:5px;
+    left:1%;
+    top:5%;
+    display:none;
+}
+.line{
+    width:35px;
+    background-color: white;
+    height:4px;
+    margin:5px;
+}
+.navsecond{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+@media only screen and (max-width:512px){
+    body{
+        height:100vh;
+    }
+    .navbar{
+        flex-direction: column;
+        height:355px;
+    }
+    .active{
+       height:40px;
+    }
+    .navsecond{
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        position:absolute;
+        top:8%;
+    }
+    .cart-logout{
+        flex-direction: column;
+        align-items: start;
+    }
+    .mycart{
+        margin-bottom: 10px;
+    }
+    ul{
+        flex-direction: column;
+        padding: 15px;
+    }
+    ul li{
+        flex-direction: column;
+        padding:0px;
+    }
+    .burger{
+        display:block;
+        background-color: orange;
+        /* left:1%; */
+        top:2%;
+    }
+    
+}
+@media only screen and (max-width:798px){
+   
+}
